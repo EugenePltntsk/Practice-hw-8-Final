@@ -1,15 +1,26 @@
 .clients.list {
-  display: flex;
+  // display: flex;
+  display: block;
+  max-width: 450px;
+  
+ display: flex;
+ flex-wrap: wrap;
+
 }
 
 .clients__link {
-  display: flex;
+  // display: flex;
+  display: block;
 
-  justify-content: center;
-  align-items: center;
+  // justify-content: center;
+  // align-items: center;
+  text-align: center;
+  
 
-  width: 170px;
-  height: 94px;
+  // width: 210px;
+  // height: 92px;
+  width: 100%;
+  
   border: 1px solid $icon-gray-color;
   border-radius: 4px;
   color: $icon-gray-color;
@@ -19,6 +30,7 @@
 
 .clients__icon {
   fill: currentColor;
+  
 }
 
 
@@ -39,5 +51,6 @@
 }
 
 .clients__item + .clients__item {
-  margin-left: 30px;
+  // margin-left: 30px;
+  margin: 0;
 }

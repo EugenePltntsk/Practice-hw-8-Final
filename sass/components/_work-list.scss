@@ -1,9 +1,10 @@
 .work__information {
-    position: absolute;
+    // position: absolute;
     bottom: 0;
-    display: flex;
-    width: 370px;
-    height: 70px;
+    // display: flex;
+    display: block;
+    // width: 370px;
+    // height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
     justify-content: center;
     align-items: center;
@@ -26,10 +27,20 @@
 }
 
 .work {
-    display: flex;
+    // display: flex;
+    display: block;
 
 }
 
 .work__item+.work__item {
-    margin-left: 30px;
+    // margin-left: 30px;
+    margin: 0;
+}
+
+.section--work-list {
+    display: none;
+
+     @media screen and ( min-width: 768px ) {
+        display: block;
+    }
 }

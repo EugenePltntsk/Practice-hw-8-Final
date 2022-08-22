@@ -3,7 +3,8 @@
 }
 
 .page-header__container {
-  display: flex;
+  // display: flex;
+  display: block;
   align-items: center;
 }
 
@@ -23,22 +24,25 @@
 /* Site nav */
 
 .main-nav {
-  display: flex;
+  // display: flex;
+  display: block;
   align-items: center;
 }
 
 .main-nav__list {
-  display: flex;
+  // display: flex;
+  display: block;
   margin-left: 93px;
 }
 
 .main-nav__item + .main-nav__item {
-  margin-left: 50px;
+  // margin-left: 50px;
+  margin: 0;
 }
 
 .main-nav__link {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  // padding-top: 32px;
+  // padding-bottom: 32px;
   color: $title-text-color;
   font-weight: 500;
   font-size: 14px;
@@ -84,19 +88,22 @@
 /* Contacts */
 
 .contacts {
-  display: flex;
+  // display: flex;
+  display: block;
   margin-left: auto;
 }
 
 .contacts__item + .contacts__item {
-  margin-left: 30px;
+  // margin-left: 30px;
+  margin: 0;
 }
 
 .contacts__link {
-  display: flex;
+  // display: flex;
+  display: block;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  // padding-top: 32px;
+  // padding-bottom: 32px;
 
   font-weight: 500;
   font-size: 14px;

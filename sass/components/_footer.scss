@@ -1,6 +1,6 @@
 .link-footer-info {
   margin-top: 12px;
-  margin-left: 70px;
+  // margin-left: 70px;
 }
 
 .join {
@@ -33,7 +33,11 @@
 
 
 .page-footer__container {
-  display: flex;
+  // display: flex;
+  display: block;
+  text-align: center;
+
+  
 }
 
 .social-links .footer-social-item + .footer-social-item {
@@ -42,8 +46,10 @@
 
 .page-footer {
   background-color: $secondary-bg-color;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  // padding-top: 60px;
+  // padding-bottom: 60px;
+  
+  
 }
 
 .page-footer a {
@@ -104,10 +110,13 @@
 }
 .address {
   font-style: normal;
+  
 }
 .footer-subscribe {
   margin-top: 12px;
-  margin-left: auto;
+  // margin-left: auto;
+  
+  
 }
 .footer-subscribe__title {
   margin-bottom: 20px;
@@ -120,10 +129,15 @@
   text-transform: uppercase;
 }
 .footer__form {
-  display: flex;
+  // display: flex;
+  display: block;
+  
+  
+  
 }
 .footer-form__button {
-  display: flex;
+  // display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   background-color: $accent-color;
@@ -134,12 +148,14 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   cursor: pointer;
+  
+  
 }
 .footer-form__input {
   margin-right: 12px;
   padding: 15px 16px;
   color: rgba(255, 255, 255, 0.6);
-  width: 358px;
+  width: 450px;
   height: 50px;
   background-color: $secondary-bg-color;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -161,5 +177,8 @@
   fill: $white-text;
 }
 .footer-subscribe-box {
-  display: flex;
+  // display: flex;
+  display: block;
+ 
+ 
 }

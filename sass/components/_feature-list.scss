@@ -1,11 +1,15 @@
 .feature-list {
-    display: flex;
+    // display: flex;
+    display: block;
+    text-align: center;
+
+    
 
 }
 
 .feature-list__title {
-    margin-bottom: 10px;
-    margin-top: 30px;
+    // margin-bottom: 10px;
+    // margin-top: 30px;
 
     color: $title-text-color;
     font-weight: 700;
@@ -13,6 +17,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
 }
 
 .feature-list__text {
@@ -21,12 +26,14 @@
     line-height: 1.71;
 
     letter-spacing: 0.03em;
+    text-align: left;
 }
 
 
 
 .feature-list__item+.feature-list__item {
-    margin-left: 30px;
+    // margin-left: 30px;
+    margin: 0;
 }
 
 
@@ -35,12 +42,13 @@
     
     &::before {
     
-    display: inline-flex;
+    // display: inline-flex;
+    display: block;
     content: '';
     background-repeat: no-repeat;
     background-size: 70px 70px;
     background-position: center;
-    width: 270px;
+    width: 450px;
     height: 120px;
     border-radius: 4px;
 
@@ -54,12 +62,13 @@
 
     &::before {
 
-    display: inline-flex;
+    // display: inline-flex;
+    display: block;
     content: '';
     background-repeat: no-repeat;
     background-size: 70px 70px;
     background-position: center;
-    width: 270px;
+    width: 450px;
     height: 120px;
     border-radius: 4px;
 
@@ -74,12 +83,13 @@
     &::before {
 
 
-    display: inline-flex;
+    // display: inline-flex;
+    display: block;
     content: '';
     background-repeat: no-repeat;
     background-size: 70px 70px;
     background-position: center;
-    width: 270px;
+    width: 450px;
     height: 120px;
     border-radius: 4px;
 
@@ -94,12 +104,13 @@
     &::before {
     
 
-    display: inline-flex;
+    // display: inline-flex;
+    display: block;
     content: '';
     background-repeat: no-repeat;
     background-size: 70px 70px;
     background-position: center;
-    width: 270px;
+    width: 450px;
     height: 120px;
     border-radius: 4px;
 
