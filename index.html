@@ -25,16 +25,11 @@
       <div class="container page-header__container">
         <nav class="main-nav">
           <a class="logo" href="./index.html"> Web<span class="logo--header">Studio</span> </a>
-          <button class="main-nav__button is-open" type="button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+          <button class="main-nav__button" type="button" data-menu-button>
             <svg width="40" height="40" aria-label="Перемикач мобільного меню">
-              <use class="icon-close" href="./images/icons.svg#icon-menu-close"></use>
               <use class="icon-open" href="./images/icons.svg#icon-menu-open"></use>
             </svg>
           </button>
-
-          <div class="menu-container" id="menu-container" data-menu>
-            
-          </div>
 
           <ul class="main-nav__list list">
             <li class="main-nav__item">
@@ -116,31 +111,102 @@
           <ul class="work list">
             <li class="work__item">
               <p class="work__description">Десктопні додатки</p>
-              <img
+
+              <picture>
+                
+                <source
+                  srcset="
+                    ./images/jpegs/work-list-1-1x.jpg   1x,
+                    ./images/jpegs/work-list-1-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1200px)"
+                />
+
+               
+                <img
+                  src="./images/jpegs/work-list-1-1x.jpg"
+                  width="100%"
+                  alt="Человек работает за стационарным компьютером"
+                />
+              </picture>
+
+
+
+
+              <!-- <img
                 src="./images/computer.jpg"
                 alt="Человек работает за стационарным компьютером"
                 class="work__computer-image"
                 width="370"
-              />
+              /> -->
             </li>
             <li class="work__item">
               <p class="work__description">Мобільні додатки</p>
-              <img
+
+              <picture>
+                
+                <source
+                  srcset="
+                    ./images/jpegs/work-list-2-1x.jpg   1x,
+                    ./images/jpegs/work-list-2-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1200px)"
+                />
+
+               
+                <img
+                  src="./images/jpegs/work-list-1-1x.jpg"
+                  width="100%"
+                  alt="Человек работает за ноутбуком"
+                />
+              </picture>
+
+
+              <!-- <img
                 src="./images/laptop.jpg"
                 alt="Человек работает за ноутбуком"
                 class="work__notebook-image"
                 width="370"
-              />
+              /> -->
             </li>
 
             <li class="work__item">
               <p class="work__description">Дизайнерські рішення</p>
-              <img
+
+              <picture>
+                
+                <source
+                  srcset="
+                    ./images/jpegs/work-list-3-1x.jpg   1x,
+                    ./images/jpegs/work-list-3-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1200px)"
+                />
+
+               
+                <img
+                  src="./images/jpegs/work-list-3-1x.jpg"
+                  width="100%"
+                  alt="Человек работает за планшетом"
+                />
+              </picture>
+
+
+              
+
+
+
+
+
+              <!-- <img
                 src="./images/tablet.jpg"
                 alt="Человек работает за планшетом"
                 class="work__tablet-image"
                 width="370"
-              />
+              /> -->
             </li>
           </ul>
         </div>
@@ -151,7 +217,46 @@
           <h2 class="section-title">Наша команда</h2>
           <ul class="staff-list list">
             <li class="staff-list__item">
-              <img src="./images/1st.jpg" alt="Сотрудник Игорь Демьяненко" width="100%" />
+              <picture>
+                
+                <source
+                  srcset="
+                    ./images/jpegs/product-designer-desktop-1x.jpg   1x,
+                    ./images/jpegs/product-designer-desktop-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/jpegs/product-designer-tablet-1x.jpg   1x,
+                    ./images/jpegs/product-designer-tablet-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/jpegs/product-designer-mob-1x.jpg   1x,
+                    ./images/jpegs/product-designer-mob-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width: 767px)"
+                />
+
+
+               
+
+                <img
+                  src="./images/jpegs/product-designer-mob-1x.jpg"
+                  width="100%"
+                  alt="человек набирает код на компьютере"
+                />
+              </picture>
+
+              <!-- <img src="./images/1st.jpg" alt="Сотрудник Игорь Демьяненко" width="100%" /> -->
               <div class="staff-list__info">
                 <h3 class="staff-list__name">Ігор Дем'яненко</h3>
                 <p class="staff-list__text">Product Designer</p>
@@ -189,11 +294,54 @@
               </div>
             </li>
             <li class="staff-list__item">
-              <img
+
+              <picture>
+                
+                <source
+                  srcset="
+                    ./images/jpegs/frontend-desktop-1x.jpg   1x,
+                    ./images/jpegs/frontend-desktop-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/jpegs/frontend-tablet-1x.jpg   1x,
+                    ./images/jpegs/frontend-tablet-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/jpegs/frontend-mob-1x.jpg   1x,
+                    ./images/jpegs/frontend-mob-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width: 767px)"
+                />
+
+
+               
+
+                <img
+                  src="./images/jpegs/frontend-mob-1x.jpg"
+                  width="100%"
+                  alt="человек набирает код на компьютере"
+                />
+              </picture>
+
+
+
+
+              <!-- <img
                 src="./images/frontend-developer.jpg"
                 alt="Сотрудник Ольга Репина"
                 width="100%"
-              />
+              /> -->
               <div class="staff-list__info">
                 <h3 class="staff-list__name">Ольга Репіна</h3>
                 <p class="staff-list__text">Frontend Developer</p>
@@ -230,11 +378,56 @@
               </div>
             </li>
             <li class="staff-list__item">
-              <img
+
+              <picture>
+                
+                <source
+                  srcset="
+                    ./images/jpegs/marketing-desktop-1x.jpg   1x,
+                    ./images/jpegs/marketing-desktop-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/jpegs/marketing-tablet-1x.jpg   1x,
+                    ./images/jpegs/marketing-tablet-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/jpegs/marketing-mob-1x.jpg   1x,
+                    ./images/jpegs/marketing-mob-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width: 767px)"
+                />
+
+
+               
+
+                <img
+                  src="./images/jpegs/marketing-mob-1x.jpg"
+                  width="100%"
+                  alt="Микола Тарасов"
+                />
+              </picture>
+
+
+
+
+
+
+              <!-- <img
                 src="./images/marketing-specialist.jpg"
                 alt="Сотрудник Николай Тарасов"
                 width="100%"
-              />
+              /> -->
               <div class="staff-list__info">
                 <h3 class="staff-list__name">Микола Тарасов</h3>
                 <p class="staff-list__text">Marketing</p>
@@ -271,7 +464,49 @@
               </div>
             </li>
             <li class="staff-list__item">
-              <img src="./images/ui-designer.jpg" alt="Сотрудник Михаил Ермаков" width="100%" />
+
+              <picture>
+                
+                <source
+                  srcset="
+                    ./images/jpegs/ui-desktop-1x.jpg   1x,
+                    ./images/jpegs/ui-desktop-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/jpegs/ui-tablet-1x.jpg   1x,
+                    ./images/jpegs/ui-tablet-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/jpegs/ui-mob-1x.jpg   1x,
+                    ./images/jpegs/ui-mob-2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                  media="(max-width: 767px)"
+                />
+
+
+               
+
+                <img
+                  src="./images/jpegs/ui-mob-1x.jpg"
+                  width="100%"
+                  alt="Михайло Єрмаков"
+                />
+              </picture>
+
+
+
+              <!-- <img src="./images/ui-designer.jpg" alt="Сотрудник Михаил Ермаков" width="100%" /> -->
               <div class="staff-list__info">
                 <h3 class="staff-list__name">Михайло Єрмаков</h3>
                 <p class="staff-list__text">UI Designer</p>
@@ -498,6 +733,55 @@
 
           <button class="btn--form-submit" type="submit">Відправити</button>
         </form>
+      </div>
+    </div>
+
+    <div class="burger-menu" data-menu>
+      <button class="btn-menu-close" type="button" data-menu-close>
+        <svg class="icon-btn-close icon-svg" width="40" height="40">
+          <use href="./images/icons.svg#icon-burger-menu-close"></use>
+        </svg>
+      </button>
+      <nav>
+        <ul class="burger-menu__list list">
+          <li class="burger-menu__item">
+            <a class="burger-menu__link current" href="">Студія</a>
+          </li>
+          <li class="burger-menu__item">
+            <a class="burger-menu__link" href="">Портфоліо</a>
+          </li>
+          <li class="burger-menu__item">
+            <a class="burger-menu__link" href="">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="burger-menu__wrapper">
+        <ul class="list">
+          <li class="burger-menu__contact-item">
+            <a class="burger-menu__contact-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+          <li class="burger-menu__contact-item">
+            <a class="burger-menu__contact-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+
+        <ul class="burger-menu__social-list list">
+          <li class="burger-menu__social-item">
+            <a class="burger-menu__social-link" href="#">Instagram</a>
+          </li>
+          <li class="burger-menu__social-item">
+            <a class="burger-menu__social-link" href="#">Twitter</a>
+          </li>
+          <li class="burger-menu__social-item">
+            <a class="burger-menu__social-link" href="#">Facebook</a>
+          </li>
+          <li class="burger-menu__social-item">
+            <a class="burger-menu__social-link" href="">Linkedin</a>
+          </li>
+        </ul>
       </div>
     </div>
 
