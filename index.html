@@ -25,6 +25,16 @@
       <div class="container page-header__container">
         <nav class="main-nav">
           <a class="logo" href="./index.html"> Web<span class="logo--header">Studio</span> </a>
+          <button class="main-nav__button is-open" type="button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+            <svg width="40" height="40" aria-label="Перемикач мобільного меню">
+              <use class="icon-close" href="./images/icons.svg#icon-menu-close"></use>
+              <use class="icon-open" href="./images/icons.svg#icon-menu-open"></use>
+            </svg>
+          </button>
+
+          <div class="menu-container" id="menu-container" data-menu>
+            
+          </div>
 
           <ul class="main-nav__list list">
             <li class="main-nav__item">
@@ -68,10 +78,9 @@
         </div>
       </section>
       <!-- features -->
-      <section class="section section--feature">
-        <h2 class="section-title visually-hidden">Наші переваги</h2>
-
+      <section class="section section--short-bottom">
         <div class="container">
+          <h2 class="section-title visually-hidden">Наші переваги</h2>
           <ul class="feature-list list">
             <li class="feature-list__item feature-list__item--attention">
               <h3 class="feature-list__title">Увага до деталей</h3>
@@ -101,41 +110,36 @@
         </div>
       </section>
       <!-- work-list -->
-      <section class="section section--work-list">
+      <section class="section section--short-top">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="work list">
-            <li class="work__item information">
-              <div class="work__information">
-                <p class="work__description">Десктопні додатки</p>
-              </div>
+            <li class="work__item">
+              <p class="work__description">Десктопні додатки</p>
               <img
                 src="./images/computer.jpg"
                 alt="Человек работает за стационарным компьютером"
                 class="work__computer-image"
-                width="450"
+                width="370"
               />
             </li>
-            <li class="work__item information">
-              <div class="work__information">
-                <p class="work__description">Мобільні додатки</p>
-              </div>
+            <li class="work__item">
+              <p class="work__description">Мобільні додатки</p>
               <img
                 src="./images/laptop.jpg"
                 alt="Человек работает за ноутбуком"
                 class="work__notebook-image"
-                width="450"
+                width="370"
               />
             </li>
-            <li class="work__item information">
-              <div class="work__information">
-                <p class="work__description">Дизайнерські рішення</p>
-              </div>
+
+            <li class="work__item">
+              <p class="work__description">Дизайнерські рішення</p>
               <img
                 src="./images/tablet.jpg"
                 alt="Человек работает за планшетом"
                 class="work__tablet-image"
-                width="450"
+                width="370"
               />
             </li>
           </ul>
@@ -147,11 +151,7 @@
           <h2 class="section-title">Наша команда</h2>
           <ul class="staff-list list">
             <li class="staff-list__item">
-              <img
-                src="./images/product-designer.jpg"
-                alt="Сотрудник Игорь Демьяненко"
-                width="450"
-              />
+              <img src="./images/1st.jpg" alt="Сотрудник Игорь Демьяненко" width="100%" />
               <div class="staff-list__info">
                 <h3 class="staff-list__name">Ігор Дем'яненко</h3>
                 <p class="staff-list__text">Product Designer</p>
@@ -189,7 +189,11 @@
               </div>
             </li>
             <li class="staff-list__item">
-              <img src="./images/frontend-developer.jpg" alt="Сотрудник Ольга Репина" width="450" />
+              <img
+                src="./images/frontend-developer.jpg"
+                alt="Сотрудник Ольга Репина"
+                width="100%"
+              />
               <div class="staff-list__info">
                 <h3 class="staff-list__name">Ольга Репіна</h3>
                 <p class="staff-list__text">Frontend Developer</p>
@@ -229,7 +233,7 @@
               <img
                 src="./images/marketing-specialist.jpg"
                 alt="Сотрудник Николай Тарасов"
-                width="450"
+                width="100%"
               />
               <div class="staff-list__info">
                 <h3 class="staff-list__name">Микола Тарасов</h3>
@@ -267,7 +271,7 @@
               </div>
             </li>
             <li class="staff-list__item">
-              <img src="./images/ui-designer.jpg" alt="Сотрудник Михаил Ермаков" width="450" />
+              <img src="./images/ui-designer.jpg" alt="Сотрудник Михаил Ермаков" width="100%" />
               <div class="staff-list__info">
                 <h3 class="staff-list__name">Михайло Єрмаков</h3>
                 <p class="staff-list__text">UI Designer</p>
@@ -314,7 +318,7 @@
           <ul class="clients list">
             <li class="clients__item">
               <a href="" class="clients__link">
-                <svg class="clients__icon" width="106" height="60">
+                <svg class="clients__icon" width="100%" height="60">
                   <use href="./images/icons.svg#icon-client-one"></use>
                 </svg>
               </a>
@@ -322,7 +326,7 @@
 
             <li class="clients__item">
               <a href="" class="clients__link">
-                <svg class="clients__icon" width="106" height="60">
+                <svg class="clients__icon" width="100%" height="60">
                   <use href="./images/icons.svg#icon-client-two"></use>
                 </svg>
               </a>
@@ -330,7 +334,7 @@
 
             <li class="clients__item">
               <a href="" class="clients__link">
-                <svg class="clients__icon" width="106" height="60">
+                <svg class="clients__icon" width="100%" height="60">
                   <use href="./images/icons.svg#icon-client-three"></use>
                 </svg>
               </a>
@@ -338,7 +342,7 @@
 
             <li class="clients__item">
               <a href="" class="clients__link">
-                <svg class="clients__icon" width="106" height="60">
+                <svg class="clients__icon" width="100%" height="60">
                   <use href="./images/icons.svg#icon-client-four"></use>
                 </svg>
               </a>
@@ -346,7 +350,7 @@
 
             <li class="clients__item">
               <a href="" class="clients__link">
-                <svg class="clients__icon" width="106" height="60">
+                <svg class="clients__icon" width="100%" height="60">
                   <use href="./images/icons.svg#icon-client-five"></use>
                 </svg>
               </a>
@@ -354,7 +358,7 @@
 
             <li class="clients__item">
               <a href="" class="clients__link">
-                <svg class="clients__icon" width="106" height="60">
+                <svg class="clients__icon" width="100%" height="60">
                   <use href="./images/icons.svg#icon-client-six"></use>
                 </svg>
               </a>
@@ -498,5 +502,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
